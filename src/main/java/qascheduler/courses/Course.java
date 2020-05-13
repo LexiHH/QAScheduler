@@ -4,29 +4,27 @@ import qascheduler.Streams;
 import qascheduler.people.Student;
 import qascheduler.people.Trainer;
 
-import java.lang.reflect.Array;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 
 public class Course {
     String courseName;
     int durationInDays;
-    Date startDate;
-    Date endDate;
+    LocalDate startDate;
+    LocalDate endDate;
     Streams stream;
-    ArrayList<Student> pastStudents = new ArrayList<Student>();
+    ArrayList<Student> students = new ArrayList<Student>();
     Trainer trainer;
 
     public Course(String courseName, Streams stream, int durationInDays, String startDate) throws ParseException {
         this.courseName = courseName;
         this.stream = stream;
         this.durationInDays = durationInDays;
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        this.startDate = sdf.parse(startDate);
-        calculateEndDate();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        this.startDate = LocalDate.parse(startDate, dtf);
+        this.endDate = this.startDate.plusDays(durationInDays);
     }
 
     public String getCourseName() {
@@ -45,19 +43,19 @@ public class Course {
         this.durationInDays = durationInDays;
     }
 
-    public Date getStartDate() {
+    public LocalDate getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public LocalDate getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 
@@ -69,12 +67,12 @@ public class Course {
         this.stream = stream;
     }
 
-    public ArrayList<Student> getPastStudents() {
-        return pastStudents;
+    public ArrayList<Student> getStudents() {
+        return students;
     }
 
-    public void setPastStudents(ArrayList<Student> pastStudents) {
-        this.pastStudents = pastStudents;
+    public void setStudents(ArrayList<Student> students) {
+        this.students = students;
     }
 
     public Trainer getTrainer() {
@@ -92,10 +90,4 @@ public class Course {
         this.trainer = trainer;
     }
 
-    public void calculateEndDate() {
-        Calendar c = Calendar.getInstance();
-        c.setTime(startDate);
-        c.add(Calendar.DATE, durationInDays);
-        this.endDate = c.getTime();
-    }
 }

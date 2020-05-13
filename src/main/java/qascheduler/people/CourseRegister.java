@@ -2,37 +2,22 @@ package qascheduler.people;
 
 import qascheduler.Streams;
 import qascheduler.courses.Course;
-import qascheduler.courses.ReactStream;
 
-import java.lang.reflect.Array;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 
 public class CourseRegister {
-    static String[] trainerNames = {"Chris", "Paul", "Margaret", "Jessica", "Peter", "Rose"};
-    ArrayList<Trainer> trainers = new ArrayList<Trainer>();
     HashMap<Streams, ArrayList<Course>> courseTimetable;
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
     public CourseRegister() throws ParseException {
-        registerTrainers();
         courseCreator();
-        assignTrainers();
     }
 
     public HashMap<Streams, ArrayList<Course>> getCourseTimetable() {
         return courseTimetable;
     }
 
-    public void registerTrainers() throws ParseException {
-        for(String name:trainerNames) {
-            trainers.add(new Trainer(name));
-        }
-    }
 
     public void courseCreator() throws ParseException {
         courseTimetable = new HashMap<Streams, ArrayList<Course>>();
@@ -79,34 +64,5 @@ public class CourseRegister {
         courses.add(new Course("React: To-Do List Application", stream, 5, "2020-06-09"));
         return courses;
 
-    }
-
-    public void assignTrainers() throws ParseException {
-        ArrayList<Course> allCourses = new ArrayList<Course>();
-        for(Streams stream:Streams.values()) {
-            allCourses.addAll(courseTimetable.get(stream));
-        }
-        for(Course course:allCourses) {
-            for(Trainer trainer:trainers) {
-                if(trainer.getAvailableDate().before(course.getStartDate()) || trainer.getAvailableDate().equals(course.getStartDate())) {
-                    course.setTrainer(trainer);
-                    trainer.setAvailableDate(addOneToEndDate(course.getEndDate()));
-                    System.out.println(course.getCourseName() + " in stream " + course.getStream() + " starts on " + sdf.parse(sdf.format(course.getStartDate())) + " with duration of " + course.getDurationInDays() + " days, ending on " + sdf.parse(sdf.format(course.getEndDate())) + " with trainer " + course.getTrainer().getName());
-                    break;
-                }
-            }
-            if(course.hasTrainer() == false){
-                System.out.println("There is no trainer available for " + course.getCourseName());
-            }
-        }
-    }
-
-    public Date addOneToEndDate(Date endDate) {
-        Calendar c = Calendar.getInstance();
-        c.setTime(endDate);
-        c.add(Calendar.DATE, 1);
-        Date endDatePlusOne;
-        endDatePlusOne = c.getTime();
-        return endDatePlusOne;
     }
 }

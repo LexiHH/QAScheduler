@@ -2,6 +2,7 @@ package qascheduler.people;
 
 import qascheduler.Streams;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
@@ -9,6 +10,7 @@ import java.util.Random;
 
 public class StudentRegister {
     static String[] studentNames = {"Andrew", "Billy", "Charlotte", "Danielle", "Edward", "Fred", "Georgia", "Holly", "Isaac", "John", "Kelly", "Lisa", "Matthew", "Nigel", "Olivia", "Pippa", "Quinton", "Rupert", "Sarah", "Tina", "Umar", "Victor", "Wendy", "Xena", "Yosef", "Zoe"};
+    static String[] enrollmentDates = {"2020-05-01", "2020-05-01", "2020-05-01", "2020-05-01", "2020-05-08", "2020-05-08", "2020-05-08", "2020-05-08", "2020-05-15", "2020-05-15", "2020-05-15", "2020-05-15", "2020-05-22", "2020-05-22", "2020-05-22", "2020-05-22", "2020-05-29", "2020-05-29", "2020-05-29", "2020-05-29", "2020-06-05", "2020-06-05", "2020-06-05", "2020-06-12", "2020-06-12", "2020-06-12"};
     private ArrayList<Student> students = new ArrayList<Student>();
     private HashMap<Streams,ArrayList<Student>> studentStreamMap = new HashMap<Streams, ArrayList<Student>>();
 
@@ -26,7 +28,8 @@ public class StudentRegister {
         for(int i = 0; i<numberOfStudents; i++) {
             String currentName = studentNames[i];
             Streams assignedStream = getStream();
-            students.add(new Student(currentName, assignedStream));
+            String enrollmentDate = enrollmentDates[i];
+            students.add(new Student(currentName, assignedStream, enrollmentDate));
         }
     }
 
