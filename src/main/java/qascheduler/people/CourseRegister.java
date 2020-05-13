@@ -33,6 +33,8 @@ public class CourseRegister {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("DevOps 101", stream, 5, "2020-05-13"));
         courses.add(new Course("Integrating DevOps into your work environment", stream, 3, "2020-05-15"));
+        courses.add(new Course("DevOps 101", stream, 5, "2020-06-13"));
+        courses.add(new Course("Integrating DevOps into your work environment", stream, 3, "2020-06-20"));
         return courses;
     }
 
@@ -40,6 +42,8 @@ public class CourseRegister {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Java 101", stream, 12, "2020-05-13"));
         courses.add(new Course("Intermediate Java", stream, 12, "2020-05-20"));
+        courses.add(new Course("Java 101", stream, 12, "2020-06-13"));
+        courses.add(new Course("Intermediate Java", stream, 12, "2020-06-26"));
         return courses;
     }
 
@@ -47,6 +51,8 @@ public class CourseRegister {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Network Security 101", stream, 5, "2020-05-18"));
         courses.add(new Course("OWASP Top 10", stream, 5, "2020-05-27"));
+        courses.add(new Course("Network Security 101", stream, 5, "2020-06-18"));
+        courses.add(new Course("OWASP Top 10", stream, 5, "2020-06-27"));
         return courses;
     }
 
@@ -54,12 +60,16 @@ public class CourseRegister {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Python 101", stream, 5, "2020-05-26"));
         courses.add(new Course("Python Battleships Game", stream, 12, "2020-05-28"));
+        courses.add(new Course("Python 101", stream, 5, "2020-06-26"));
+        courses.add(new Course("Python Battleships Game", stream, 12, "2020-06-28"));
         return courses;
     }
 
 
     public ArrayList<Course> reactCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
+        courses.add(new Course("React 101", stream, 5, "2020-05-03"));
+        courses.add(new Course("React: To-Do List Application", stream, 5, "2020-05-09"));
         courses.add(new Course("React 101", stream, 5, "2020-06-03"));
         courses.add(new Course("React: To-Do List Application", stream, 5, "2020-06-09"));
         return courses;

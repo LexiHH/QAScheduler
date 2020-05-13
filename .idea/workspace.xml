@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" afterDir="false" />
@@ -124,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="665">
+              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#743#744#0" expanded="true" />
@@ -155,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="65" column="68" lean-forward="true" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+            <state relative-caret-position="850">
+              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#592#604#0" expanded="true" />
@@ -189,11 +188,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,11 +256,11 @@
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Trainer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java" />
       </list>
     </option>
   </component>
@@ -405,13 +404,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" />
@@ -419,7 +419,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9653304" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17226435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -618,19 +608,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="459">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#1660#1668#0" expanded="true" />
-            <element signature="e#2012#2020#0" expanded="true" />
-            <element signature="e#2339#2347#0" expanded="true" />
-            <element signature="e#2670#2678#0" expanded="true" />
-            <element signature="e#3003#3011#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,26 +634,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#1660#1668#0" expanded="true" />
+            <element signature="e#2012#2020#0" expanded="true" />
+            <element signature="e#2339#2347#0" expanded="true" />
+            <element signature="e#2670#2678#0" expanded="true" />
+            <element signature="e#3003#3011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="65" column="68" lean-forward="true" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+        <state relative-caret-position="850">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#592#604#0" expanded="true" />
             <element signature="e#817#826#0" expanded="true" />
             <element signature="e#2605#2614#0" expanded="true" />
             <element signature="e#2574#2582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
