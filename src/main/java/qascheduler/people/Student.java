@@ -1,6 +1,6 @@
 package qascheduler.people;
 
-import qascheduler.Streams;
+import qascheduler.streams.Streams;
 import qascheduler.courses.Course;
 
 import java.time.LocalDate;

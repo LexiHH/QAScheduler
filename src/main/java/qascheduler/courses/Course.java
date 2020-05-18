@@ -1,6 +1,6 @@
 package qascheduler.courses;
 
-import qascheduler.Streams;
+import qascheduler.streams.Streams;
 import qascheduler.people.Student;
 import qascheduler.people.Trainer;
 

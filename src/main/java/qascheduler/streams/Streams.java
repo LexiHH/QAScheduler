@@ -1,4 +1,4 @@
-package qascheduler;
+package qascheduler.streams;
 
 public enum Streams {
     JavaStream,

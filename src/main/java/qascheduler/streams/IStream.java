@@ -1,4 +1,4 @@
-package qascheduler.courses;
+package qascheduler.streams;
 
 import qascheduler.people.Student;
 

@@ -1,78 +1,83 @@
-package qascheduler.people;
+package qascheduler.courses;
 
-import qascheduler.Streams;
-import qascheduler.courses.Course;
+import qascheduler.streams.Streams;
+import qascheduler.streams.BaseStream;
 
 import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class CourseRegister {
-    HashMap<Streams, ArrayList<Course>> courseTimetable;
+    ArrayList<BaseStream> streamsWithCourses;
 
-    public CourseRegister() throws ParseException {
-        courseCreator();
+    public CourseRegister(ArrayList<BaseStream> streamsWithCourses) throws ParseException {
+        this.streamsWithCourses = streamsWithCourses;
+        devOpsCourses(Streams.DevOpsStream);
+        javaCourses(Streams.JavaStream);
+        networkCourses(Streams.NetworkSecurityStream);
+        pythonCourses(Streams.PythonStream);
+        reactCourses(Streams.ReactStream);
     }
 
-    public HashMap<Streams, ArrayList<Course>> getCourseTimetable() {
-        return courseTimetable;
+
+    public void courseCreator(ArrayList<Course> courses, Streams stream) {
+        for(BaseStream baseStream:streamsWithCourses) {
+            if(baseStream.getStreamName() == stream) {
+                baseStream.setCoursesForThisStream(courses);
+            }
+        }
     }
 
-
-    public void courseCreator() throws ParseException {
-        courseTimetable = new HashMap<Streams, ArrayList<Course>>();
-        courseTimetable.put(Streams.DevOpsStream, devOpsCourses(Streams.DevOpsStream));
-        courseTimetable.put(Streams.JavaStream, javaCourses(Streams.JavaStream));
-        courseTimetable.put(Streams.NetworkSecurityStream, networkCourses(Streams.NetworkSecurityStream));
-        courseTimetable.put(Streams.PythonStream, pythonCourses(Streams.PythonStream));
-        courseTimetable.put(Streams.ReactStream, reactCourses(Streams.ReactStream));
-
-    }
-
-    public ArrayList<Course> devOpsCourses(Streams stream) throws ParseException {
+    public void devOpsCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("DevOps 101", stream, 5, "2020-05-13"));
         courses.add(new Course("Integrating DevOps into your work environment", stream, 3, "2020-05-15"));
         courses.add(new Course("DevOps 101", stream, 5, "2020-06-13"));
         courses.add(new Course("Integrating DevOps into your work environment", stream, 3, "2020-06-20"));
-        return courses;
+        courseCreator(courses, stream);
     }
 
-    public ArrayList<Course> javaCourses(Streams stream) throws ParseException {
+    public void javaCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Java 101", stream, 12, "2020-05-13"));
         courses.add(new Course("Intermediate Java", stream, 12, "2020-05-20"));
         courses.add(new Course("Java 101", stream, 12, "2020-06-13"));
         courses.add(new Course("Intermediate Java", stream, 12, "2020-06-26"));
-        return courses;
+        courseCreator(courses, stream);
     }
 
-    public ArrayList<Course> networkCourses(Streams stream) throws ParseException {
+    public void networkCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Network Security 101", stream, 5, "2020-05-18"));
         courses.add(new Course("OWASP Top 10", stream, 5, "2020-05-27"));
         courses.add(new Course("Network Security 101", stream, 5, "2020-06-18"));
         courses.add(new Course("OWASP Top 10", stream, 5, "2020-06-27"));
-        return courses;
+        courseCreator(courses, stream);
     }
 
-    public ArrayList<Course> pythonCourses(Streams stream) throws ParseException {
+    public void pythonCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Python 101", stream, 5, "2020-05-26"));
         courses.add(new Course("Python Battleships Game", stream, 12, "2020-05-28"));
         courses.add(new Course("Python 101", stream, 5, "2020-06-26"));
         courses.add(new Course("Python Battleships Game", stream, 12, "2020-06-28"));
-        return courses;
+        courseCreator(courses, stream);
     }
 
 
-    public ArrayList<Course> reactCourses(Streams stream) throws ParseException {
+    public void reactCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("React 101", stream, 5, "2020-05-03"));
         courses.add(new Course("React: To-Do List Application", stream, 5, "2020-05-09"));
         courses.add(new Course("React 101", stream, 5, "2020-06-03"));
         courses.add(new Course("React: To-Do List Application", stream, 5, "2020-06-09"));
-        return courses;
+        courseCreator(courses, stream);
+    }
 
+    public void printCourses() {
+        for(BaseStream stream:streamsWithCourses) {
+            for(Course course:stream.getCoursesForThisStream()) {
+                System.out.println(course.getCourseName() + " starting on " + course.getStartDate() + " and ending on " + course.getEndDate());
+            }
+        }
     }
 }

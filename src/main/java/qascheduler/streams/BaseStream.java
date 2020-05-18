@@ -1,5 +1,6 @@
-package qascheduler.courses;
+package qascheduler.streams;
 
+import qascheduler.courses.Course;
 import qascheduler.people.Student;
 
 import java.util.ArrayList;
@@ -7,14 +8,14 @@ import java.util.ArrayList;
 public class BaseStream implements IStream {
     ArrayList<Student> studentsForThisStream = new ArrayList<Student>();
     ArrayList<Course> coursesForThisStream = new ArrayList<Course>();
+    Streams streamName;
 
     public BaseStream() {
         System.out.println("No argument constructor of BaseStream called");
     }
 
-    public BaseStream(ArrayList<Student> studentsForThisStream, ArrayList<Course> coursesForThisStream) {
-        this.studentsForThisStream = studentsForThisStream;
-        this.coursesForThisStream = coursesForThisStream;
+    public BaseStream(Streams streamName) {
+        this.streamName = streamName;
     }
 
     public ArrayList<Student> getStudentsForThisStream() {
@@ -31,5 +32,9 @@ public class BaseStream implements IStream {
 
     public void setCoursesForThisStream(ArrayList<Course> coursesForThisStream) {
         this.coursesForThisStream = coursesForThisStream;
+    }
+
+    public Streams getStreamName() {
+        return streamName;
     }
 }
