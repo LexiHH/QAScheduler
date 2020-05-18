@@ -7,10 +7,10 @@ import java.text.ParseException;
 import java.util.ArrayList;
 
 public class CourseRegister {
-    ArrayList<BaseStream> streamsWithCourses;
+    ArrayList<BaseStream> allStreams;
 
-    public CourseRegister(ArrayList<BaseStream> streamsWithCourses) throws ParseException {
-        this.streamsWithCourses = streamsWithCourses;
+    public CourseRegister(ArrayList<BaseStream> allStreams) throws ParseException {
+        this.allStreams = allStreams;
         devOpsCourses(Streams.DevOpsStream);
         javaCourses(Streams.JavaStream);
         networkCourses(Streams.NetworkSecurityStream);
@@ -20,7 +20,7 @@ public class CourseRegister {
 
 
     public void courseCreator(ArrayList<Course> courses, Streams stream) {
-        for(BaseStream baseStream:streamsWithCourses) {
+        for(BaseStream baseStream: allStreams) {
             if(baseStream.getStreamName() == stream) {
                 baseStream.setCoursesForThisStream(courses);
             }
@@ -74,9 +74,11 @@ public class CourseRegister {
     }
 
     public void printCourses() {
-        for(BaseStream stream:streamsWithCourses) {
+        for(BaseStream stream: allStreams) {
             for(Course course:stream.getCoursesForThisStream()) {
+                System.out.println();
                 System.out.println(course.getCourseName() + " starting on " + course.getStartDate() + " and ending on " + course.getEndDate());
+                System.out.println();
             }
         }
     }

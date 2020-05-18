@@ -1,10 +1,10 @@
 package qascheduler.streams;
 
-import qascheduler.people.Student;
-
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public interface IStream {
+
+    public HashMap<String, Double> calculateStreamCosts();
 
 
 }
