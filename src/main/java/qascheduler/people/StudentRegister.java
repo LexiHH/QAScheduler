@@ -65,18 +65,28 @@ public class StudentRegister {
     }
 
     public void printStudentStreamEnrollments() {
+        System.out.printf("%-40s%-40s%-12s%n", "Stream", "Student", "Enrollment Date");
         for(BaseStream baseStream:streamsWithCourses) {
             ArrayList<Student> students = baseStream.getStudentsForThisStream();
+            Streams streamName = baseStream.getStreamName();
+            System.out.printf("%-40s", streamName);
             if(students.isEmpty()) {
-                System.out.println("There are no students enrolled in the " + baseStream.getStreamName() + " stream.");
+                System.out.printf("%-40s%-12s%n", "No Students", "N/A");
             }
             else {
-                System.out.println("Students enrolled in the " + baseStream.getStreamName() + " are:");
+                int firstStudent = 0;
                 for(Student student:students) {
-                    System.out.println(student.getName() + ", who enrolled on " + student.getEnrollmentDate());
+                    if(firstStudent == 0) {
+                        System.out.printf("%-40s%-12s%n", student.getName(), student.getEnrollmentDate());
+                        firstStudent ++;
+                    }
+                    else {
+                        System.out.printf("%-40s%-40s%-12s%n", "", student.getName(), student.getEnrollmentDate());
+                    }
+
                 }
             }
-            System.out.println();
         }
+        System.out.println();
     }
 }

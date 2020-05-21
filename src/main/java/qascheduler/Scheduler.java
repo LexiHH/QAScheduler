@@ -104,7 +104,6 @@ public class Scheduler {
         if(trainer.getAvailableDate().isBefore(course.getStartDate()) || trainer.getAvailableDate().isEqual(course.getStartDate())) {
             course.setTrainer(trainer);
             trainer.setAvailableDate(course.getEndDate().plusDays(1));
-            printCourseDetails(course);
             return true;
         }
         return false;

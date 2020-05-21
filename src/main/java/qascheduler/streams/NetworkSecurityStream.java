@@ -4,7 +4,7 @@ public class NetworkSecurityStream extends BaseStream {
 
     public NetworkSecurityStream(Streams streamName) {
         super(streamName);
-        this.setCostPerStudentPerCourse(120);
-        this.setChargePerStudentPerCourse(250);
+        this.setCostPerStudent(120);
+        this.setFeePerStudent(250);
     }
 }

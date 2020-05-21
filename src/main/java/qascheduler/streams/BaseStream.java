@@ -10,8 +10,8 @@ public class BaseStream implements IStream {
     ArrayList<Student> studentsForThisStream = new ArrayList<Student>();
     ArrayList<Course> coursesForThisStream = new ArrayList<Course>();
     Streams streamName;
-    double costPerStudentPerCourse;
-    double chargePerStudentPerCourse;
+    double costPerStudent;
+    double feePerStudent;
 
     public BaseStream() {
         System.out.println("No argument constructor of BaseStream called");
@@ -41,29 +41,29 @@ public class BaseStream implements IStream {
         return streamName;
     }
 
-    public double getCostPerStudentPerCourse() {
-        return costPerStudentPerCourse;
+    public double getCostPerStudent() {
+        return costPerStudent;
     }
 
-    public double getChargePerStudentPerCourse() {
-        return chargePerStudentPerCourse;
+    public double getFeePerStudent() {
+        return feePerStudent;
     }
 
-    public void setCostPerStudentPerCourse(double costPerStudentPerCourse) {
-        this.costPerStudentPerCourse = costPerStudentPerCourse;
+    public void setCostPerStudent(double costPerStudent) {
+        this.costPerStudent = costPerStudent;
     }
 
-    public void setChargePerStudentPerCourse(double chargePerStudentPerCourse) {
-        this.chargePerStudentPerCourse = chargePerStudentPerCourse;
+    public void setFeePerStudent(double feePerStudent) {
+        this.feePerStudent = feePerStudent;
     }
 
     @Override
     public HashMap<String, Double> calculateStreamCosts() {
         HashMap<String, Double> income = new HashMap<String, Double>();
-        double numberOfCourseAttendees = (double)countStudents();
-        double totalCost = numberOfCourseAttendees * this.getCostPerStudentPerCourse();
-        double totalFee = numberOfCourseAttendees * this.getChargePerStudentPerCourse();
-        income.put("Equipment", numberOfCourseAttendees);
+        double numberOfStudentsInStream = (double)countStudents();
+        double totalCost = numberOfStudentsInStream * this.getCostPerStudent();
+        double totalFee = numberOfStudentsInStream * this.getFeePerStudent();
+        income.put("Equipment", numberOfStudentsInStream);
         income.put("Cost", totalCost);
         income.put("Fees", totalFee);
         return income;

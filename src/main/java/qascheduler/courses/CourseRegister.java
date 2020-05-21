@@ -1,5 +1,6 @@
 package qascheduler.courses;
 
+import qascheduler.people.Student;
 import qascheduler.streams.Streams;
 import qascheduler.streams.BaseStream;
 
@@ -38,10 +39,10 @@ public class CourseRegister {
 
     public void javaCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
-        courses.add(new Course("Java 101", stream, 12, "2020-05-13"));
-        courses.add(new Course("Intermediate Java", stream, 12, "2020-05-20"));
-        courses.add(new Course("Java 101", stream, 12, "2020-06-13"));
-        courses.add(new Course("Intermediate Java", stream, 12, "2020-06-26"));
+        courses.add(new Course("Java 101", stream, 15, "2020-05-13"));
+        courses.add(new Course("Intermediate Java", stream, 15, "2020-05-20"));
+        courses.add(new Course("Java 101", stream, 15, "2020-06-13"));
+        courses.add(new Course("Intermediate Java", stream, 15, "2020-06-26"));
         courseCreator(courses, stream);
     }
 
@@ -57,9 +58,9 @@ public class CourseRegister {
     public void pythonCourses(Streams stream) throws ParseException {
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("Python 101", stream, 5, "2020-05-26"));
-        courses.add(new Course("Python Battleships Game", stream, 12, "2020-05-28"));
+        courses.add(new Course("Python Battleships Game", stream, 15, "2020-05-28"));
         courses.add(new Course("Python 101", stream, 5, "2020-06-26"));
-        courses.add(new Course("Python Battleships Game", stream, 12, "2020-06-28"));
+        courses.add(new Course("Python Battleships Game", stream, 15, "2020-06-28"));
         courseCreator(courses, stream);
     }
 
@@ -73,11 +74,34 @@ public class CourseRegister {
         courseCreator(courses, stream);
     }
 
-    public void printCourses() {
+    public void printInititalCourses() {
         System.out.println();
+        System.out.printf("%-60s %-15s %-15s %n", "Course Name", "Start Date", "End Date");
         for(BaseStream stream: allStreams) {
             for(Course course:stream.getCoursesForThisStream()) {
-                System.out.println(course.getCourseName() + " starting on " + course.getStartDate() + " and ending on " + course.getEndDate());
+                System.out.printf("%-60s %-15s %-15s %n", course.getCourseName(), course.getStartDate().toString(), course.getEndDate().toString());
+            }
+        }
+        System.out.println();
+    }
+
+    public void printOrganisedCourses() {
+        System.out.println();
+        System.out.printf("%-60s%-15s%-15s%-15s%-15s%n", "Course Name", "Trainer", "Start Date", "End Date", "Students");
+        for(BaseStream stream: allStreams) {
+            for(Course course:stream.getCoursesForThisStream()) {
+                int firstStudent = 0;
+                for(Student student: course.getStudents()) {
+                    if(firstStudent == 0) {
+                        System.out.printf("%-60s%-15s%-15s%-15s%-15s%n", course.getCourseName(), course.getTrainer().getName(), course.getStartDate().toString(), course.getEndDate().toString(), student.getName());
+                        firstStudent++;
+                    }
+                    else {
+                        System.out.printf("%-60s%-15s%-15s%-15s%-15s%n", "", "", "", "", student.getName());
+                    }
+                }
+
+
             }
         }
         System.out.println();
