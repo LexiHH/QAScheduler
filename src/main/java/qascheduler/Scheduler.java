@@ -14,7 +14,7 @@ public class Scheduler {
     static String[] trainerNames = {"Chris", "Paul", "Margaret", "Jessica", "Peter", "Rose"};
     ArrayList<Trainer> trainers = new ArrayList<Trainer>();
 
-    public Scheduler(ArrayList<BaseStream> allStreams) throws ParseException {
+    public Scheduler(ArrayList<BaseStream> allStreams) {
         this.allStreams = allStreams;
         addStudentsToCourses();
         assignTrainersToCourses();

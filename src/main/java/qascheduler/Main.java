@@ -17,6 +17,7 @@ public class Main {
         StudentRegister studentsOf2020 = new StudentRegister(5, allStreams);
         studentsOf2020.printStudentStreamEnrollments();
         Scheduler scheduleOf2020 = new Scheduler(allStreams);
+        coursesOf2020.printCourses();
         streamHandler.printStreamCosts();
     }
 }

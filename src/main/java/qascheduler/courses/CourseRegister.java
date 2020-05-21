@@ -74,12 +74,12 @@ public class CourseRegister {
     }
 
     public void printCourses() {
+        System.out.println();
         for(BaseStream stream: allStreams) {
             for(Course course:stream.getCoursesForThisStream()) {
-                System.out.println();
                 System.out.println(course.getCourseName() + " starting on " + course.getStartDate() + " and ending on " + course.getEndDate());
-                System.out.println();
             }
         }
+        System.out.println();
     }
 }
