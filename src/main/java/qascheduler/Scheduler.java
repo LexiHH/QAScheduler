@@ -5,7 +5,6 @@ import qascheduler.courses.Course;
 import qascheduler.people.Student;
 import qascheduler.people.Trainer;
 
-import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -17,7 +16,7 @@ public class Scheduler {
     public Scheduler(ArrayList<BaseStream> allStreams) {
         this.allStreams = allStreams;
         addStudentsToCourses();
-        assignTrainersToCourses();
+        addTrainersToCourses();
     }
 
 
@@ -62,7 +61,7 @@ public class Scheduler {
     }
 
 
-    public void assignTrainersToCourses() {
+    public void addTrainersToCourses() {
         for(String name:trainerNames) {
             trainers.add(new Trainer(name));
         }
@@ -114,14 +113,6 @@ public class Scheduler {
             if(course.hasTrainer() == false){
                 System.out.printf("There is no trainer available for %s; either find another resource or put students into a later course.\n", course.getCourseName());
             }
-        }
-    }
-
-    public void printCourseDetails(Course course) {
-        System.out.println(course.getCourseName() + " in stream " + course.getStream() + " starts on " + course.getStartDate() + " with duration of " + course.getDurationInDays() + " days, ending on " + course.getEndDate() + " with trainer " + course.getTrainer().getName());
-        System.out.println("The students attending this course are: ");
-        for(Student student:course.getStudents()) {
-            System.out.println(student.getName());
         }
     }
 }

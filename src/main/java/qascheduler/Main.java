@@ -14,7 +14,7 @@ public class Main {
         StreamHandler streamHandler = new StreamHandler();
         ArrayList<BaseStream> allStreams = streamHandler.getAllStreams();
         CourseRegister coursesOf2020 = new CourseRegister(allStreams);
-        StudentRegister studentsOf2020 = new StudentRegister(23, allStreams);
+        StudentRegister studentsOf2020 = new StudentRegister(5, allStreams);
         studentsOf2020.printStudentStreamEnrollments();
         Scheduler scheduleOf2020 = new Scheduler(allStreams);
         coursesOf2020.printOrganisedCourses();

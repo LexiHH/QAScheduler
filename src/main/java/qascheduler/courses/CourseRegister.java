@@ -5,6 +5,7 @@ import qascheduler.streams.Streams;
 import qascheduler.streams.BaseStream;
 
 import java.text.ParseException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CourseRegister {
@@ -91,9 +92,13 @@ public class CourseRegister {
         for(BaseStream stream: allStreams) {
             for(Course course:stream.getCoursesForThisStream()) {
                 int firstStudent = 0;
+                String courseName = course.getCourseName();
+                String trainer = course.getTrainer().getName();
+                String startDate = course.getStartDate().toString();
+                String endDate = course.getEndDate().toString();
                 for(Student student: course.getStudents()) {
                     if(firstStudent == 0) {
-                        System.out.printf("%-60s%-15s%-15s%-15s%-15s%n", course.getCourseName(), course.getTrainer().getName(), course.getStartDate().toString(), course.getEndDate().toString(), student.getName());
+                        System.out.printf("%-60s%-15s%-15s%-15s%-15s%n", courseName, trainer, startDate, endDate, student.getName());
                         firstStudent++;
                     }
                     else {
