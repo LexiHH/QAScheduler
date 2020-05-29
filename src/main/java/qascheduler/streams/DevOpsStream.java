@@ -4,7 +4,7 @@ public class DevOpsStream extends BaseStream {
 
     public DevOpsStream(Streams streamName) {
         super(streamName);
-        this.setCostPerStudent(100);
-        this.setFeePerStudent(250);
+        this.costPerStudent = 100;
+        this.feePerStudent = 250;
     }
 }

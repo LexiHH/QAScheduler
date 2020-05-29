@@ -15,11 +15,11 @@ public class StreamHandler {
     }
 
     public void createStreamsArray() {
-        DevOpsStream devOpsStream = new DevOpsStream(Streams.DevOpsStream);
-        JavaStream javaStream = new JavaStream(Streams.JavaStream);
-        NetworkSecurityStream networkSecurityStream = new NetworkSecurityStream(Streams.NetworkSecurityStream);
-        PythonStream pythonStream = new PythonStream(Streams.PythonStream);
-        ReactStream reactStream = new ReactStream(Streams.ReactStream);
+        DevOpsStream devOpsStream = new DevOpsStream(Streams.DEVOPS_STREAM);
+        JavaStream javaStream = new JavaStream(Streams.JAVA_STREAM);
+        NetworkSecurityStream networkSecurityStream = new NetworkSecurityStream(Streams.NETWORK_SECURITY_STREAM);
+        PythonStream pythonStream = new PythonStream(Streams.PYTHON_STREAM);
+        ReactStream reactStream = new ReactStream(Streams.REACT_STREAM);
         allStreams.add(devOpsStream);
         allStreams.add(javaStream);
         allStreams.add(networkSecurityStream);
@@ -40,6 +40,4 @@ public class StreamHandler {
         }
         System.out.printf("For all streams combined, a total of %.0f laptops will be required. The total income will be £%.2f, the total cost will be £%.2f, and therefore the total profit will be £%.2f%n", totalStudents, totalStreamIncome, totalStreamOutgoings, (totalStreamIncome - totalStreamOutgoings));
     }
-
-
 }

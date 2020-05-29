@@ -1,38 +1,110 @@
 package qascheduler.people;
 
+import org.junit.jupiter.api.Test;
+import qascheduler.streams.BaseStream;
+import qascheduler.streams.StreamHandler;
+import qascheduler.streams.Streams;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StudentRegisterTest {
 
-    @org.junit.jupiter.api.BeforeEach
-    void setUp() {
+    StreamHandler streamHandler = new StreamHandler();
+    ArrayList<BaseStream> allStreams = streamHandler.getAllStreams();
+
+    @Test
+    void registeringNoStudentsNoError() {
+        StudentRegister studentsOf2020 = new StudentRegister(0, allStreams);
+        int numberOfStudents = studentsOf2020.getStudents().size();
+        assertEquals(0, numberOfStudents);
     }
 
-    @org.junit.jupiter.api.AfterEach
-    void tearDown() {
+    @Test
+    void registering26StudentsAddsToArraySuccessfully() {
+        StudentRegister studentsOf2020 = new StudentRegister(26, allStreams);
+        int numberOfStudents = studentsOf2020.getStudents().size();
+        assertEquals(26, numberOfStudents);
     }
 
-    @org.junit.jupiter.api.Test
-    void register() {
+    @Test
+    void moreThan26StudentsThrowsException() {
+        assertThrows(IndexOutOfBoundsException.class, () -> new StudentRegister(28, allStreams));
     }
 
-    @org.junit.jupiter.api.Test
-    void getStream() {
+    @Test
+    void getStreamReturningValidStream () {
+        boolean valid = false;
+        Streams stream = StudentRegister.getStream();
+        for(Streams each: Streams.values()) {
+            if(stream.equals(each)) {
+                valid = true;
+            }
+        }
+        assertTrue(valid);
     }
 
-    @org.junit.jupiter.api.Test
-    void createStudentStreamMap() {
+    @Test
+    void setEachStreamsStudents() {
+        int numberOfStudents = 26;
+        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
+        int count = 0;
+        for(BaseStream baseStream: allStreams) {
+            count += baseStream.getStudentsForThisStream().size();
+        }
+        assertEquals(numberOfStudents, count);
     }
 
-    @org.junit.jupiter.api.Test
-    void putStudentsInStreamMap() {
+    @Test
+    void createStudentStreamMapUsesAllStreams() {
+        StudentRegister studentsOf2020 = new StudentRegister(26, allStreams);
+        HashMap<Streams,ArrayList<Student>> studentStreamMap = studentsOf2020.createStudentStreamMap();
+        Streams[] streamsEnumArray = Streams.values();
+        Arrays.sort(streamsEnumArray);
+        Streams[] hashMapStreamArray = studentStreamMap.keySet().toArray(new Streams[studentStreamMap.keySet().size()]);
+        Arrays.sort(hashMapStreamArray);
+        assertArrayEquals(streamsEnumArray, hashMapStreamArray);
     }
 
-    @org.junit.jupiter.api.Test
-    void addStudentsToStream() {
+    @Test
+    void putStudentsInStreamMapAddsAllStudents() {
+        int numberOfStudents = 26;
+        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
+        HashMap<Streams,ArrayList<Student>> studentStreamMap = studentsOf2020.createStudentStreamMap();
+        studentStreamMap = studentsOf2020.putStudentsInStreamMap(studentStreamMap);
+        int countStudents = 0;
+        for(Streams stream:studentStreamMap.keySet()) {
+            countStudents += studentStreamMap.get(stream).size();
+        }
+        assertEquals(numberOfStudents, countStudents);
     }
 
-    @org.junit.jupiter.api.Test
-    void printStudentStreamEnrollments() {
+    @Test
+    void addStudentsToStreamAddsAllStudents() {
+        int numberOfStudents = 26;
+        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
+        int count = 0;
+        for(BaseStream baseStream:allStreams) {
+            count += baseStream.getStudentsForThisStream().size();
+        }
+        assertEquals(numberOfStudents, count);
+    }
+
+    @Test
+    void studentsAddedToCorrectStreams() {
+        int numberOfStudents = 26;
+        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
+        int count = 0;
+        for(BaseStream baseStream:allStreams) {
+            for(Student student: baseStream.getStudentsForThisStream()) {
+                if(baseStream.getStreamName() == student.getStream()) {
+                    count ++;
+                }
+            }
+        }
+        assertEquals(numberOfStudents, count);
     }
 }

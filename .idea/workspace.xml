@@ -6,9 +6,35 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/PythonStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/PythonStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qascheduler/streams/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qascheduler/streams/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qascheduler/people/StudentRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qascheduler/people/StudentRegisterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/Scheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/courses/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/courses/Course.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/courses/CourseRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/courses/CourseRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/people/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/people/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/people/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/people/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/people/StudentRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/people/StudentRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/BaseStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/BaseStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/DevOpsStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/DevOpsStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/JavaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/JavaStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/NetworkSecurityStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/NetworkSecurityStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/PythonStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/PythonStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/ReactStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/ReactStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/StreamHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/StreamHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qascheduler/streams/Streams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/qascheduler/streams/Streams.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +52,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,17 +68,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/qascheduler/people/StudentRegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/Streams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -56,8 +89,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+            <state relative-caret-position="51">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="68">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +123,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-187">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +137,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/QAScheduleCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,56 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#1103#1119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1484#1500#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="458">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -161,8 +174,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -172,6 +185,8 @@
       <find>print</find>
       <find>12</find>
       <find>printcourse</find>
+      <find>javastream</find>
+      <find>course</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/DevOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/Streams.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/courses/Java.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Stream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/IStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Java.java" />
@@ -202,9 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Python.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/React.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/Streams.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Trainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/BaseStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/DevOpsStream.java" />
@@ -214,18 +225,24 @@
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/ReactStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/CourseRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/IStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/PythonStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/Streams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java" />
         <option value="$PROJECT_DIR$/src/test/java/qascheduler/people/StudentRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qascheduler/QAScheduleCreator.java" />
       </list>
     </option>
   </component>
@@ -237,9 +254,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2872" />
+    <option name="x" value="13" />
     <option name="y" value="-8" />
-    <option name="width" value="976" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -372,13 +389,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="qascheduler.Main" />
       <module name="QAScheduler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qascheduler.streams.*" />
+          <option name="PATTERN" value="qascheduler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,9 +403,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAScheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qascheduler.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qascheduler.people" />
+      <option name="MAIN_CLASS_NAME" value="qascheduler.people.StudentRegisterTest" />
+      <option name="METHOD_NAME" value="createStudentStreamMapUsesAllStreams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreamsOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAScheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qascheduler.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qascheduler.people" />
+      <option name="MAIN_CLASS_NAME" value="qascheduler.people.StudentRegisterTest" />
+      <option name="METHOD_NAME" value="createStudentStreamMapUsesAllStreamsOnce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRegisterTest.putStudentsInStreamMapAddsAllStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAScheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qascheduler.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qascheduler.people" />
+      <option name="MAIN_CLASS_NAME" value="qascheduler.people.StudentRegisterTest" />
+      <option name="METHOD_NAME" value="putStudentsInStreamMapAddsAllStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRegisterTest.studentsAddedToCorrectStreams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAScheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qascheduler.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qascheduler.people" />
+      <option name="MAIN_CLASS_NAME" value="qascheduler.people.StudentRegisterTest" />
+      <option name="METHOD_NAME" value="studentsAddedToCorrectStreams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentRegisterTest.studentsAddedToCorrectStreams" />
+        <item itemvalue="JUnit.StudentRegisterTest.putStudentsInStreamMapAddsAllStudents" />
+        <item itemvalue="JUnit.StudentRegisterTest.createStudentStreamMapUsesAllStreamsOnce" />
+        <item itemvalue="JUnit.StudentRegisterTest.createStudentStreamMapUsesAllStreams" />
       </list>
     </recent_temporary>
   </component>
@@ -405,11 +490,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 14h 46m 10s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 14h 46m 32s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 14h 47m 07s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 15h 05m 13s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 15h 07m 19s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreams - 2020.05.28 at 15h 11m 12s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_createStudentStreamMapUsesAllStreamsOnce - 2020.05.28 at 15h 13m 31s.xml">
+      <configuration name="StudentRegisterTest.createStudentStreamMapUsesAllStreamsOnce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_putStudentsInStreamMapAddsAllStudents - 2020.05.28 at 15h 16m 13s.xml">
+      <configuration name="StudentRegisterTest.putStudentsInStreamMapAddsAllStudents" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_studentsAddedToCorrectStreams - 2020.05.28 at 15h 22m 41s.xml">
+      <configuration name="StudentRegisterTest.studentsAddedToCorrectStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentRegisterTest_studentsAddedToCorrectStreams - 2020.05.28 at 15h 38m 00s.xml">
+      <configuration name="StudentRegisterTest.studentsAddedToCorrectStreams" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,7 +535,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30552545" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28602383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,6 +553,34 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2892741" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/text/DateFormat.java">
@@ -445,37 +590,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/PythonStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#384#392#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/courses/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0-M1/junit-jupiter-api-5.7.0-M1.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/IStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,150 +730,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/JavaStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/DevOpsStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/NetworkSecurityStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/PythonStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/IStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/StreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#1103#1119#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/courses/CourseRegister.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/QAScheduleCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/ReactStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/streams/BaseStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1484#1500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qascheduler/people/StudentRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qascheduler/people/StudentRegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

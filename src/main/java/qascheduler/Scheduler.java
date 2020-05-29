@@ -9,9 +9,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Scheduler {
-    ArrayList<BaseStream> allStreams = new ArrayList<BaseStream>();
+    private ArrayList<BaseStream> allStreams = new ArrayList<BaseStream>();
     static String[] trainerNames = {"Chris", "Paul", "Margaret", "Jessica", "Peter", "Rose"};
-    ArrayList<Trainer> trainers = new ArrayList<Trainer>();
+    private ArrayList<Trainer> trainers = new ArrayList<Trainer>();
 
     public Scheduler(ArrayList<BaseStream> allStreams) {
         this.allStreams = allStreams;
@@ -111,6 +111,7 @@ public class Scheduler {
     public void extraTrainerNeeded(Course course) {
         if(!course.getStudents().isEmpty()) {
             if(course.hasTrainer() == false){
+                course.setTrainer(new Trainer("Trainer Required"));
                 System.out.printf("There is no trainer available for %s; either find another resource or put students into a later course.\n", course.getCourseName());
             }
         }

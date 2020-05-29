@@ -11,7 +11,7 @@ public class Student extends Person {
     private Streams stream;
     private LocalDate enrollmentDate;
     private Course currentCourse;
-    ArrayList<String> coursesAttended = new ArrayList<String>();
+    private ArrayList<String> coursesAttended = new ArrayList<String>();
 
     public Student(String name, Streams stream, String enrollmentDate) {
         super(name);
@@ -30,10 +30,6 @@ public class Student extends Person {
 
     public void setCoursesAttended(ArrayList<String> coursesAttended) {
         this.coursesAttended = coursesAttended;
-    }
-
-    public void setStream(Streams stream) {
-        this.stream = stream;
     }
 
     public Course getCurrentCourse() {

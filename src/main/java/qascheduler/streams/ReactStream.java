@@ -4,7 +4,7 @@ public class ReactStream extends BaseStream {
 
     public ReactStream(Streams streamName) {
         super(streamName);
-        this.setCostPerStudent(220.50);
-        this.setFeePerStudent(350);
+        this.costPerStudent = 220.50;
+        this.feePerStudent = 350;
     }
 }

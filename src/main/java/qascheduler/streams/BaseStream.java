@@ -6,12 +6,12 @@ import qascheduler.people.Student;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class BaseStream implements IStream {
-    ArrayList<Student> studentsForThisStream = new ArrayList<Student>();
-    ArrayList<Course> coursesForThisStream = new ArrayList<Course>();
-    Streams streamName;
-    double costPerStudent;
-    double feePerStudent;
+public abstract class BaseStream implements IStream {
+    protected ArrayList<Student> studentsForThisStream = new ArrayList<Student>();
+    protected ArrayList<Course> coursesForThisStream = new ArrayList<Course>();
+    protected Streams streamName;
+    protected double costPerStudent;
+    protected double feePerStudent;
 
     public BaseStream() {
         System.out.println("No argument constructor of BaseStream called");
@@ -47,14 +47,6 @@ public class BaseStream implements IStream {
 
     public double getFeePerStudent() {
         return feePerStudent;
-    }
-
-    public void setCostPerStudent(double costPerStudent) {
-        this.costPerStudent = costPerStudent;
-    }
-
-    public void setFeePerStudent(double feePerStudent) {
-        this.feePerStudent = feePerStudent;
     }
 
     @Override
