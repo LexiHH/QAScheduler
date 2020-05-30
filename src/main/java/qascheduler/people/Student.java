@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-public class Student extends Person {
+public class Student extends Person implements Comparable<Student>{
     private Streams stream;
     private LocalDate enrollmentDate;
     private Course currentCourse;
@@ -49,5 +49,10 @@ public class Student extends Person {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return this.getName().compareTo(student.getName());
     }
 }

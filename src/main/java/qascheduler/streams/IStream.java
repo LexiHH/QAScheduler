@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public interface IStream {
 
-    public HashMap<String, Double> calculateStreamCosts();
+    HashMap<String, Double> calculateStreamCosts();
 
 
 }

@@ -15,16 +15,11 @@ public class StreamHandler {
     }
 
     public void createStreamsArray() {
-        DevOpsStream devOpsStream = new DevOpsStream(Streams.DEVOPS_STREAM);
-        JavaStream javaStream = new JavaStream(Streams.JAVA_STREAM);
-        NetworkSecurityStream networkSecurityStream = new NetworkSecurityStream(Streams.NETWORK_SECURITY_STREAM);
-        PythonStream pythonStream = new PythonStream(Streams.PYTHON_STREAM);
-        ReactStream reactStream = new ReactStream(Streams.REACT_STREAM);
-        allStreams.add(devOpsStream);
-        allStreams.add(javaStream);
-        allStreams.add(networkSecurityStream);
-        allStreams.add(pythonStream);
-        allStreams.add(reactStream);
+        allStreams.add(new DevOpsStream());
+        allStreams.add(new JavaStream());
+        allStreams.add(new NetworkSecurityStream());
+        allStreams.add(new PythonStream());
+        allStreams.add(new ReactStream());
     }
 
     public void printStreamCosts() {

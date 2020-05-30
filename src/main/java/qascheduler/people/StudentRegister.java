@@ -103,7 +103,6 @@ public class StudentRegister {
                     else {
                         System.out.printf("%-40s%-40s%-12s%n", "", student.getName(), student.getEnrollmentDate());
                     }
-
                 }
             }
         }

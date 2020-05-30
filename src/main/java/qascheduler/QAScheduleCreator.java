@@ -7,7 +7,7 @@ import qascheduler.streams.StreamHandler;
 
 import java.util.ArrayList;
 
-public class QAScheduleCreator {
+public abstract class QAScheduleCreator {
 
     public static void CreateSchedule(int numberOfStudents) {
         StreamHandler streamHandler = new StreamHandler();

@@ -7,6 +7,7 @@ import qascheduler.streams.Streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -48,17 +49,6 @@ class StudentRegisterTest {
     }
 
     @Test
-    void setEachStreamsStudents() {
-        int numberOfStudents = 26;
-        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
-        int count = 0;
-        for(BaseStream baseStream: allStreams) {
-            count += baseStream.getStudentsForThisStream().size();
-        }
-        assertEquals(numberOfStudents, count);
-    }
-
-    @Test
     void createStudentStreamMapUsesAllStreams() {
         StudentRegister studentsOf2020 = new StudentRegister(26, allStreams);
         HashMap<Streams,ArrayList<Student>> studentStreamMap = studentsOf2020.createStudentStreamMap();
@@ -71,15 +61,20 @@ class StudentRegisterTest {
 
     @Test
     void putStudentsInStreamMapAddsAllStudents() {
-        int numberOfStudents = 26;
-        StudentRegister studentsOf2020 = new StudentRegister(numberOfStudents, allStreams);
+        StudentRegister studentsOf2020 = new StudentRegister(26, allStreams);
         HashMap<Streams,ArrayList<Student>> studentStreamMap = studentsOf2020.createStudentStreamMap();
         studentStreamMap = studentsOf2020.putStudentsInStreamMap(studentStreamMap);
-        int countStudents = 0;
+        ArrayList<Student> hashMapStudents = new ArrayList<Student>();
         for(Streams stream:studentStreamMap.keySet()) {
-            countStudents += studentStreamMap.get(stream).size();
+            for(Student student:studentStreamMap.get(stream)) {
+                hashMapStudents.add(student);
+            }
         }
-        assertEquals(numberOfStudents, countStudents);
+        Student[] hashMapStudentsArray = hashMapStudents.toArray(new Student[hashMapStudents.size()]);
+        Arrays.sort(hashMapStudentsArray);
+        Student[] studentRegisterStudents = studentsOf2020.getStudents().toArray(new Student[studentsOf2020.getStudents().size()]);
+        Arrays.sort(studentRegisterStudents);
+        assertArrayEquals(studentRegisterStudents, hashMapStudentsArray);
     }
 
     @Test

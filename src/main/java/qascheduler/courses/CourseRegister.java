@@ -103,8 +103,6 @@ public class CourseRegister {
                         System.out.printf("%-60s%-30s%-15s%-15s%-15s%n", "", "", "", "", student.getName());
                     }
                 }
-
-
             }
         }
         System.out.println();
